@@ -1,0 +1,96 @@
+2021-08-25_16:24:58.360 [main] INFO  by.rest.messenger.logs.Slf4jTest - This is my log!
+2021-08-25_16:26:05.302 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: RestfulApiServlets]
+2021-08-25_16:26:05.395 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.5.Final
+2021-08-25_16:26:05.957 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-25_16:26:06.472 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_16:26:06.472 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-08-25_16:26:06.472 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-08-25_16:26:06.472 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-08-25_16:26:06.792 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-08-25_16:26:06.833 [main] INFO  org.hibernate.orm.beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-08-25_16:26:07.212 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-25_16:26:07.641 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-25_16:26:07.993 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_16:26:37.847 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: RestfulApiServlets]
+2021-08-25_16:26:37.929 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.5.Final
+2021-08-25_16:26:38.412 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-25_16:26:39.069 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_16:26:39.069 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-08-25_16:26:39.069 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-08-25_16:26:39.069 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-08-25_16:26:39.366 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-08-25_16:26:39.413 [main] INFO  org.hibernate.orm.beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-08-25_16:26:39.751 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-25_16:26:40.160 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-25_16:26:40.425 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_23:12:29.007 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: RestfulApiServlets]
+2021-08-25_23:12:29.131 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.5.Final
+2021-08-25_23:12:29.658 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-25_23:12:30.192 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_23:12:30.192 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-08-25_23:12:30.192 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-08-25_23:12:30.192 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-08-25_23:12:30.567 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-08-25_23:12:30.614 [main] INFO  org.hibernate.orm.beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-08-25_23:12:31.067 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-25_23:12:31.567 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-25_23:12:31.889 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_23:13:22.699 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: RestfulApiServlets]
+2021-08-25_23:13:22.832 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.5.Final
+2021-08-25_23:13:23.299 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-25_23:13:23.868 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_23:13:23.869 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-08-25_23:13:23.869 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-08-25_23:13:23.873 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-08-25_23:13:24.138 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-08-25_23:13:24.185 [main] INFO  org.hibernate.orm.beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-08-25_23:13:24.498 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-25_23:13:24.931 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-25_23:13:25.181 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_23:14:03.867 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: RestfulApiServlets]
+2021-08-25_23:14:03.964 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.5.Final
+2021-08-25_23:14:04.498 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-25_23:14:05.110 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_23:14:05.111 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-08-25_23:14:05.112 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-08-25_23:14:05.117 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-08-25_23:14:05.403 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-08-25_23:14:05.440 [main] INFO  org.hibernate.orm.beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-08-25_23:14:05.781 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-25_23:14:06.221 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-25_23:14:06.481 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_23:14:44.432 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: RestfulApiServlets]
+2021-08-25_23:14:44.509 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.5.Final
+2021-08-25_23:14:44.976 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-25_23:14:45.658 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_23:14:45.658 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-08-25_23:14:45.658 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-08-25_23:14:45.658 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-08-25_23:14:45.988 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-08-25_23:14:46.027 [main] INFO  org.hibernate.orm.beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-08-25_23:14:46.383 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-25_23:14:46.821 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-25_23:14:47.099 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_23:17:24.218 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: RestfulApiServlets]
+2021-08-25_23:17:24.301 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.5.Final
+2021-08-25_23:17:24.878 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-25_23:17:25.525 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-25_23:17:25.526 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-08-25_23:17:25.526 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-08-25_23:17:25.531 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-08-25_23:17:25.821 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-08-25_23:17:25.856 [main] INFO  org.hibernate.orm.beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2021-08-25_23:17:26.214 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-25_23:17:26.701 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-25_23:17:26.992 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-29_19:42:05.126 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: Messenger]
+2021-08-29_19:42:05.245 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.5.Final
+2021-08-29_19:42:05.814 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-29_19:42:06.909 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/rest_servlets_db]
+2021-08-29_19:42:06.909 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-08-29_19:42:06.910 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-08-29_19:42:06.914 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-08-29_19:42:07.291 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-08-29_19:42:07.765 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-08-29_19:42:08.323 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-29_19:42:08.654 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/rest_servlets_db]

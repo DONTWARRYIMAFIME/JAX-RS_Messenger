@@ -1,0 +1,13 @@
+2021-08-25_16:24:58.365 [main] ERROR by.rest.messenger.logs.Slf4jTest - This is error log
+2021-08-25_16:24:58.366 [main] WARN  by.rest.messenger.logs.Slf4jTest - This is warning log
+2021-08-25_16:26:06.457 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-08-25_16:26:07.963 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2021-08-25_16:26:07.964 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "login_sequence_unique"
+  Detail: Ключ "(login)=(myLogin)" уже существует.
+2021-08-25_16:26:39.053 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-08-25_23:12:30.145 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-08-25_23:13:23.859 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-08-25_23:14:05.100 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-08-25_23:14:45.643 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-08-25_23:17:25.514 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-08-29_19:42:06.895 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property name="APPLICATION_NAME" value="RestfulApiServlets"/>
+    <property name="DATE" value="%d{yyyy-MM-dd}"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>[%d{yyyy-MM-dd_HH:mm:ss.SSS}] --- %-5level --- %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ERROR_FILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/error.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <FileNamePattern>logs/${APPLICATION_NAME}.%d{yyyy-MM-dd}.error.%i.log.zip</FileNamePattern>
+            <MinIndex>1</MinIndex>
+            <MaxIndex>10</MaxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>2MB</MaxFileSize>
+        </triggeringPolicy>
+
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d{yyyy-MM-dd_HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+
+        <!-- Accepts only warnings and errors -->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>WARN</level>
+        </filter>
+
+    </appender>
+
+    <appender name="STATUS_FILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/status.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <FileNamePattern>logs/${APPLICATION_NAME}.%d{yyyy-MM-dd}.status.%i.log.zip</FileNamePattern>
+            <MinIndex>1</MinIndex>
+            <MaxIndex>10</MaxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>2MB</MaxFileSize>
+        </triggeringPolicy>
+
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d{yyyy-MM-dd_HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+
+        <!-- Accepts only info -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+    </appender>
+
+    <logger name="org.hibernate.type" level="INFO" />
+    <logger name="org.hibernate" level="INFO" />
+    <logger name="org.jboss.weld" level="INFO" />
+
+    <root level="ALL">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="STATUS_FILE" />
+        <appender-ref ref="ERROR_FILE" />
+    </root>
+
+</configuration>
